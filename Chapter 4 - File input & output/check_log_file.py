@@ -1,6 +1,6 @@
 #Code to find word in log file 
 
-with open("log.html", "r") as f:
+with open("4_log.html", "r") as f:
     content = f.read()
 
 if "Mahir" in content:

@@ -2,7 +2,7 @@
 
 st = "I really found python interesting!!"
 
-f = open("file2.txt", "w")
+f = open("2_file.txt", "w")
 
 f.write(st)
 

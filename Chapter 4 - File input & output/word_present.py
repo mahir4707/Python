@@ -2,7 +2,7 @@
 
 st = "twinkle"
 
-f = open("file.txt")
+f = open("2_file.txt")
 data = f.read()
 
 if st in data:

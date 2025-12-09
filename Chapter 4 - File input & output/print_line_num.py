@@ -1,6 +1,6 @@
 # code to print line no where word given is present in file
 
-with open("log.html", "r") as f:
+with open("4_log.html", "r") as f:
     lines = f.readlines()
 
 lineno = 1

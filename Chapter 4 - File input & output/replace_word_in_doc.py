@@ -2,10 +2,10 @@
 
 word = "Diamond"
 
-with open("file.txt", "r") as f:
+with open("2_file.txt", "r") as f:
     content = f.read()
 
     contentNew = content.replace(word, "#####")
 
-with open("file.txt", "w") as f:
+with open("2_file.txt", "w") as f:
     f.write(contentNew)
