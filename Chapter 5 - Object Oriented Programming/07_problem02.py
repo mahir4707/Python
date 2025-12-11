@@ -1,5 +1,4 @@
 # code to write class for calculator and perform operation like square, cube and square root of number.
-
 class calculator:
     
     def __init__(self, number):
@@ -14,6 +13,7 @@ class calculator:
     def square_root(self):
         return self.number ** 0.5
     
-m = calculator(2)
+m = calculator(9)
 print("Square:", m.square())
 print("Cube:", m.cube())
+print("Square Root:", m.square_root())
